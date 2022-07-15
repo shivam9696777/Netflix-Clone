@@ -1,0 +1,263 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat',sans-serif ;
+
+}
+html{
+    font-size: 16px;
+}
+.flex{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content:space-between ;
+    padding: 0 0.1%;
+}
+.in{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.dabb{
+    width: 100%;
+    height: 100vh;
+    position:relative ;
+
+}
+.nav{
+    width: 100%;
+    background-color: black;
+}
+.L-nav{
+width: 70%;
+align-items:center ;
+justify-content: flex-start;
+}
+.logo img{
+    width: 140px;
+}
+.nv{
+    width: 85%;
+}
+ul li{
+    color: white;
+    list-style: number;
+    font-size: 1rem;
+    margin-right: 40px;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+  width: 100%; 
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content:flex-end ;
+}
+.R-nav{
+    width: 30%;
+    align-items:center ;
+    justify-content:flex-end ;
+}
+R-nav img{
+    width:50px;
+    border-radius: 5px;
+}
+.fa{
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+.R-nav p{
+    display: inline;
+    margin-left: 5px;
+    font-size: 1.1rem;
+}
+.ban {
+    height: auto;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    color: #fff
+    padding-top : 100px;
+}
+
+.ban h1{
+    font-size: 2rem;
+    background: linear-gradient(to right,#f32170,#be421c,#cf23cf),#cc6b33;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.ban h3{
+font-size: 2rem;
+margin-top: 20px;
+letter-spacing: 3px;
+font-weight: 300;
+text-transform: capitalize;
+color: #fff;
+}
+.ban .heading{
+    font-style: italic;
+    padding: 0px 20px;
+}
+.ban .ban-code{
+font-size: 15rem;
+font-weight: 900;
+}
+.ban-button{
+    justify-content: flex-start;
+    padding: 0;
+}
+.ban .btn{
+    padding: 12px 18px;
+    font-size: 1rem;
+    margin :50px 10px 0 11px;
+    color: black;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.ban .btn1{
+    background-color: rgba(255,255,255,0.5);
+color: #fff;
+}
+.play{
+    color: black;
+    margin: 0 5px;
+}
+.info{
+    color: #fff;
+}
+.video-container {
+    width: 100%;
+    height: 85vh;
+    position:absolute ;
+    z-index: -6;
+    left: 0;
+    top: 0;
+
+}
+.video-container video{
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+}
+.color-lap{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+
+}
+.shiv h3{
+    color: rgb(196, 15, 15);
+    font-size: 1.5rem;
+    
+}
+.shiv{
+width: 90%;
+position: absolute;
+bottom: 0; 
+top: ;
+border-radius: 20px;
+padding: 0 1%;
+}
+
+.shiv-slide{
+  position:relative;
+  display: flex;  
+  align-items: center;
+  width: 100%;
+  height: 2500x;
+  padding: 0 50px;
+}
+.shiv-list{
+    position: relative;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 0 50px;
+    
+}
+.shiv-item{
+    display:table-column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0 7px;
+object-fit: cover    ;
+    cursor: pointer;
+}
+.shiv-item img{
+
+width: 100%;
+height: 180%;
+border-radius: 5px;
+}
+.startbtn{
+    display: center;
+    font-size: large ;
+    background-color:transparent;
+    border: none;
+    outline: none;
+    color: #0094da;
+}
+/* mobalie view */
+@media only screen and (max-width:1200px){
+ .ban h1{
+font-size: 3.5em;
+ }
+ .nv{
+    width: 100%;
+    display: none;;
+ }
+ .L-nav ,R-nav{
+width: 100%;
+justify-content:flex-start;
+margin:20px 0;
+
+ }
+ ul li{
+    margin-right: 30px;
+ }
+ .startbtn{
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 18px;
+    position: absolute;
+    right: 20px;
+ }
+
+ }  
+ @media only screen and (max-width: 750px){
+    .ban h1{
+        font-size: 3.1rem;
+    }
+    .ban{
+        padding: 50px;
+    }
+
+ } 
+@media only screen and (max-width: 500px){
+    .ban h1{
+        font-size: 3.1rem;
+
+    }
+    .menu{
+        flex-direction: column;
+    }
+    ul li{
+        margin-bottom: 10px;
+    }
+}
+
+
