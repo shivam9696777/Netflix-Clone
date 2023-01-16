@@ -9,7 +9,8 @@
 
 ## Screenshots
 
-![Screenshot](https://github.com/shivam9696777/Netflix-Clone/blob/main/ScreenShot1.jpg)
+![Screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBm_2wOWPgt6i5luIBlxzJIBAnwPv8MwPbqXBc8qWoiJGvRd109v50L_M7oRHkbGfWDJyLBl7U7QchjoOxKOL6yoVLMWvu36oDpW8xbg9dnZfoahGNktGgTynbCyIZWiFTpdqDUJ021kbJy_MKl5_uG3Ur4zu_RXy0dt_zGSd3p1kzA38lC9r6SlBP3w/s320/ScreenShot1.jpg)
+![Screenshots](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn2MdsO8czoWqUBDtmLtoCFeQWXz2EvIq5qUrWPOVtrMlsNISW9R3HQowoksGUcnUwS9AanWsusPfV1GvDdfgd_jedgYH5EEWaflHDwpHn-4ax0vC_aYA71OdmMfJfVmOxwRAbCVbIiccdY1PfTMvg8bsAsoQeu0AArBrll_xjfwgII9s9hxNG3-bWlw/s320/ScreenShot2.jpg)
 
 
 ## 🚀 About Me
